@@ -5,7 +5,7 @@ namespace LeetCode.Lib
 {
     public class TwoSum
     {
-        public static int[] TwoSum(int[] nums, int target)
+        public static int[] FindingTwoSum(int[] nums, int target)
         {
             var lookup = new Dictionary<int, int>();
             for (int i = 0; i < nums.Length; i++)
